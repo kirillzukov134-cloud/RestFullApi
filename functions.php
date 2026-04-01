@@ -20,7 +20,7 @@ function selectIDStudent($pdo, $id){
             http_response_code(404);
             echo json_encode([
                 'status'=> false,
-                'msg'=> 'Такого пользователя нетghhghgit'
+                'msg'=> 'There is no such user!'
             ]);
         }
 }
